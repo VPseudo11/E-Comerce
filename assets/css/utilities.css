@@ -1,0 +1,11 @@
+.first_entry_header i {
+    padding: 0 10px;
+    font-size: .7rem;
+    color: white;
+}
+
+.social-container i{
+    font-size: 32px;
+    color: #dddddd;
+    cursor: pointer;
+}
