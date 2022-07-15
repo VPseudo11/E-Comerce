@@ -431,3 +431,89 @@
     justify-content: center;
     border: none;
 }
+
+
+/* Estilos del footer / Bruno Gongora / Snyder Bolaños*/ 
+
+.seccion_footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: left;
+    height: 30vh;
+    align-items: center;
+  }
+  
+  .buscador_y_boton img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .buscador_y_boton{
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input{
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .icono{
+    margin: 0px 6px;
+  }
+  
+  .icono:hover{
+    cursor: pointer;
+  }
+  
+  .izquierda{
+    padding-left: 5rem;
+  }
+  
+  .izquierda p {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .derecha h2{
+    margin-bottom: 1rem;
+  }
+  
+  .derecha li{
+    font-size: 0.8rem;
+  }
+  
+  .centro {
+    font-size: 0.8rem;
+  }
+  .centro {
+    padding-left: 5rem;
+  }
+  .centro h2{
+    margin-bottom: 1rem;
+  }
+  .centro li{
+    font-size: 0.8rem;
+  }
+  .tres {
+    font-size: 0.8rem;
+  }
+  .tres {
+    padding-left: 5rem;
+  }
+  .tres {
+    font-size: 0.8rem;
+  }
+  .logo {
+    font-size: 0.8rem;
+  }
+  .logo {
+    margin-bottom: 1rem;
+  }
+  .logo {
+    padding-left: 5rem;
+  }
+  
+  
