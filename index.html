@@ -62,28 +62,28 @@
         <div class="slide-container swiper">
             <div class="slide-content">
                 <div class="card-wraper swiper-wrapper">
-                    <div class="card swiper-slide">
+                    <div class="cardSld swiper-slide">
                         <div class="image-content">
                             <div class="card-image">
                                 <img src="assets/img/hanburguer.jpg" alt="" class="card-img">
                             </div>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="cardSld swiper-slide">
                         <div class="image-content">
                             <div class="card-image">
                                 <img src="assets/img/pizza-swiper.jpg" alt="" class="card-img">
                             </div>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="cardSld swiper-slide">
                         <div class="image-content">
                             <div class="card-image">
                                 <img src="assets/img/ramen-swiper.jpg" alt="" class="card-img">
                             </div>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="cardSld swiper-slide">
                         <div class="image-content">
                             <div class="card-image">
                                 <img src="assets/img/bebidas18-swiper.jpg" alt="" class="card-img">
@@ -120,15 +120,26 @@
     <!-- Inicio Section Main -->
     <section class="contenedor_principal">
         <main class="contenedor__productos">
-            <h2>Productos:</h2>
+            <h2 class="titleMainProductos">Productos:</h2>
             <section id="productosContenedor" class="productos"></section>
             <section id="bebidasContenedor" class="productos"></section>
         </main>
+        <asside class="contenedor__carrito">
+            <h2>Carrito:</h2>
+            <div id="articulosContenedor" class="articulos"></div>
+
+            <h3>Total: <span id="precioTotal"></span> </h3>
+
+            <div id="btnsAcciones">
+                <button type="button" class="comprar">Comprar</button>
+                <button type="button" class="limpiar">Vaciar</button>
+            </div>
+        </asside>
     </section>
     <!-- <script src="/node_modules/swiper/swiper-bundle.esm.browser.min.js"></script> -->
+    <script type="module" src="/assets/js/swiper-bundle.min.js"></script>
+    <script type="module" src="/assets/js/main-swiper.js"></script>
+    <script type="module" src="/assets/js/main.js"></script>
 </body>
-<script src="/assets/js/swiper-bundle.min.js"></script>
-<script src="/assets/js/main-swiper.js"></script>
-<script src="/assets/js/main.js"></script>
 
 </html>

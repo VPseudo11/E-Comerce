@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "swiper": "^8.3.1"
-  }
+  },
+  "name": "ecomerce2022",
+  "version": "1.0.0",
+  "description": "E Comerce v2022",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VPseudo11/E-Comerce.git"
+  },
+  "author": "Pseudo Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VPseudo11/E-Comerce/issues"
+  },
+  "homepage": "https://github.com/VPseudo11/E-Comerce#readme"
 }

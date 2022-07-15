@@ -309,3 +309,125 @@
         grid-template-columns: 2fr 1fr;
     }
 }
+
+.contenedor__productos .titleMainProductos {
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.productos {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    justify-content: center;
+    gap: 15px;
+    margin: 100px auto;
+}
+
+
+.card {
+    width: 200px;
+    height: 290px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    border-image: initial;
+    transition: all 0.3s ease 0s;
+}
+
+.cardBebidas:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.imgCard {
+    width: 195px;
+    height: 200px;
+    margin: 0px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(155, 155, 155);
+    border-image: initial;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenidoCard h2 {
+    font-size: .7rem;
+}
+
+.contenidoCard p {
+    font-size: .7rem;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.contenidoCard span {
+    color: rgb(101, 101, 101);
+}
+
+.buttonAdd button {
+    width: 50%;
+    height: 25px;
+    background: linear-gradient(90deg, rgba(208, 208, 208, 1) 0%, rgba(131, 131, 131, 1) 32%, rgba(93, 93, 93, 1) 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: .7rem;
+    margin: 0 auto;
+}
+
+.card-carrito {
+    width: 500px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 15px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-carrito img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.descripcionCarrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remover {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    background: rgb(230, 104, 104);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.agregar {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    background: rgb(47, 255, 0);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
